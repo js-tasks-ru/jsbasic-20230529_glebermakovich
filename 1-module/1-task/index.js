@@ -1,6 +1,4 @@
-// function factorial(n) {
-//  while(n != 1) {
-//   n * factorial(n - 1)
-//  }
-// }
-// factorial(5);
+function factorial(n) {
+  return n ? n * factorial(n - 1) : 1;
+}
+factorial(5);
